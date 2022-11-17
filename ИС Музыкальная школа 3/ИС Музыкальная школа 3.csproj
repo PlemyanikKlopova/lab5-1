@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BA6AF7CC-D12F-4FF9-A960-54713CC49E30}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ИС_Музыкальная_школа_3</RootNamespace>
+    <AssemblyName>ИС Музыкальная школа 3</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Database4rDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database4rDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Database5DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database5DataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Database_lastDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database_lastDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="дополнение на закупку.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="дополнение на закупку.Designer.cs">
+      <DependentUpon>дополнение на закупку.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Дополнение на итог.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Дополнение на итог.Designer.cs">
+      <DependentUpon>Дополнение на итог.cs</DependentUpon>
+    </Compile>
+    <Compile Include="дополнение на обучение.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="дополнение на обучение.Designer.cs">
+      <DependentUpon>дополнение на обучение.cs</DependentUpon>
+    </Compile>
+    <Compile Include="дополнение сотрудника.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="дополнение сотрудника.Designer.cs">
+      <DependentUpon>дополнение сотрудника.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Закуп.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Закуп.Designer.cs">
+      <DependentUpon>Закуп.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Итоговый экзамен.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Итоговый экзамен.Designer.cs">
+      <DependentUpon>Итоговый экзамен.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Главная.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Главная.Designer.cs">
+      <DependentUpon>Главная.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Обучение.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Обучение.Designer.cs">
+      <DependentUpon>Обучение.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="поиск закупа.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="поиск закупа.Designer.cs">
+      <DependentUpon>поиск закупа.cs</DependentUpon>
+    </Compile>
+    <Compile Include="поиск итога.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="поиск итога.Designer.cs">
+      <DependentUpon>поиск итога.cs</DependentUpon>
+    </Compile>
+    <Compile Include="поиск обучения.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="поиск обучения.Designer.cs">
+      <DependentUpon>поиск обучения.cs</DependentUpon>
+    </Compile>
+    <Compile Include="поиск сотрудника.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="поиск сотрудника.Designer.cs">
+      <DependentUpon>поиск сотрудника.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Сотрудники.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Сотрудники.Designer.cs">
+      <DependentUpon>Сотрудники.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="дополнение на закупку.resx">
+      <DependentUpon>дополнение на закупку.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Дополнение на итог.resx">
+      <DependentUpon>Дополнение на итог.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="дополнение на обучение.resx">
+      <DependentUpon>дополнение на обучение.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="дополнение сотрудника.resx">
+      <DependentUpon>дополнение сотрудника.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Закуп.resx">
+      <DependentUpon>Закуп.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Итоговый экзамен.resx">
+      <DependentUpon>Итоговый экзамен.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Главная.resx">
+      <DependentUpon>Главная.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Обучение.resx">
+      <DependentUpon>Обучение.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="поиск закупа.resx">
+      <DependentUpon>поиск закупа.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="поиск итога.resx">
+      <DependentUpon>поиск итога.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="поиск обучения.resx">
+      <DependentUpon>поиск обучения.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="поиск сотрудника.resx">
+      <DependentUpon>поиск сотрудника.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Сотрудники.resx">
+      <DependentUpon>Сотрудники.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Database4rDataSet.xsc">
+      <DependentUpon>Database4rDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Database4rDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database4rDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Database4rDataSet.xss">
+      <DependentUpon>Database4rDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Database5DataSet.xsc">
+      <DependentUpon>Database5DataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Database5DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database5DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Database5DataSet.xss">
+      <DependentUpon>Database5DataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Database_lastDataSet.xsc">
+      <DependentUpon>Database_lastDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Database_lastDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database_lastDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Database_lastDataSet.xss">
+      <DependentUpon>Database_lastDataSet.xsd</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Database last.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Database4r.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Database5.mdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\15. Облака.jpg" />
+    <None Include="Resources\7. Бабочка.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

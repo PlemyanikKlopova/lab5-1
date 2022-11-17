@@ -1,0 +1,38 @@
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\bin\Debug\Database4r.mdb
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\bin\Debug\ИС Музыкальная школа 3.exe.config
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\bin\Debug\ИС Музыкальная школа 3.exe
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\bin\Debug\ИС Музыкальная школа 3.pdb
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\obj\Debug\ИС Музыкальная школа 3.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\obj\Debug\ИС Музыкальная школа 3.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\obj\Debug\ИС_Музыкальная_школа_3.Главная.resources
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\obj\Debug\ИС_Музыкальная_школа_3.Properties.Resources.resources
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\obj\Debug\ИС_Музыкальная_школа_3.Обучение.resources
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\obj\Debug\ИС Музыкальная школа 3.csproj.GenerateResource.cache
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\obj\Debug\ИС Музыкальная школа 3.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\obj\Debug\ИС Музыкальная школа 3.exe
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\obj\Debug\ИС Музыкальная школа 3.pdb
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\obj\Debug\ИС_Музыкальная_школа_3.Итоговый_экзамен.resources
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\obj\Debug\ИС_Музыкальная_школа_3.Закуп.resources
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\obj\Debug\ИС_Музыкальная_школа_3.Сотрудники.resources
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\obj\Debug\ИС_Музыкальная_школа_3.дополнение_на_закупку.resources
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\bin\Debug\Database5.mdb
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\bin\Debug\Database5DataSet.Designer.cs
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\bin\Debug\Database5DataSet.xsc
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\bin\Debug\Database5DataSet.xsd
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\bin\Debug\Database5DataSet.xss
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\obj\Debug\ИС_Музыкальная_школа_3.поиск_закупа.resources
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\obj\Debug\ИС_Музыкальная_школа_3.Дополнение_на_итог.resources
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\obj\Debug\ИС_Музыкальная_школа_3.поиск_итога.resources
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\bin\Debug\Database last.mdb
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\obj\Debug\ИС_Музыкальная_школа_3.дополнение_на_обучение.resources
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\obj\Debug\ИС_Музыкальная_школа_3.поиск_обучения.resources
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\obj\Debug\ИС_Музыкальная_школа_3.поиск_сотрудника.resources
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\obj\Debug\ИС_Музыкальная_школа_3.дополнение_сотрудника.resources
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\bin\Debug\Database4rDataSet.Designer.cs
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\bin\Debug\Database_lastDataSet.Designer.cs
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\bin\Debug\Database4rDataSet.xsc
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\bin\Debug\Database4rDataSet.xsd
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\bin\Debug\Database4rDataSet.xss
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\bin\Debug\Database_lastDataSet.xsc
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\bin\Debug\Database_lastDataSet.xsd
+C:\Users\user\source\repos\ИС Музыкальная школа 3\ИС Музыкальная школа 3\bin\Debug\Database_lastDataSet.xss
